@@ -8,20 +8,6 @@
 * [04-JavaScript-II Flujos de control, operadores de comparación, bucles for](./04-JavaScript-II)
 * [05-Javascript-IIIBucles for y Arrays II](./05-JavaScript-III)
 
-## Conceptos:
-
-* [Expressions vs Statements](./JavaScript-Tipos-funciones/Statements-Expressions/)
-
-## Proceso de subida de homeworks
-
-
-__IMPORTANTE:__ Luego de completar cada una de las homeworks del día deberán ejecutar el siguiente comando para subir sus trabajos a sus repositorios (Deben estar posicionados sobre la carpeta principal `Numen-JS-I` para que funcione y haber corrido previamente `npm install`:
-
-Para la tareas número 1 no es necesario ya que su trabajo se realiza por fuera de este repositorio
-
-
-Cada vez que querramos actualizar nuestro repositorio en github con los cambios locales, podemos usar el comando de git "status", esto nos mostrará los cambios hechos en el repositorio local. Usa "status" si no estás seguro de que algo haya funcionado y necesitas saber qué pasó.
-
 ```bash
   $ git status
 ```
