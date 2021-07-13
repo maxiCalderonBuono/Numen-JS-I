@@ -70,21 +70,26 @@ function colors(color) {
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
- if (color === "blue") {
-   return "This is blue";
+ let mensaje;
+
+ switch (color){
+   case "blue": 
+   mensaje= "This is blue";
+ break;
+ case "red": 
+   mensaje= "This is red";
+ break;
+ case "green":
+  mensaje= "This is green";
+  break;
+ case "orange":
+   mensaje= "This is orange";
+  break;
+ default:
+   mensaje= "Color not found";
  }
- else if (color === "red") {
-   return "This is red";
- }
- else if (color === "green") {
-   return "This is green";
- }
- else if (color === "orange") {
-   return "This is orange";
- }
- else {
-   return "Color not found";
- }
+
+ return mensaje;
 }
 
 function esDiezOCinco(numero) {
@@ -206,9 +211,10 @@ function tablaDelSeis(){
   //Escribe tu código aquí   
  var tabla = []
 for (let i= 0; i <= 10; i++) {
-  tabla.push (i*6);
-}
-return tabla;
+   tabla.push (i*6);
+  }
+  return tabla
+
 }
 
 function tieneTresDigitos(numero){
@@ -229,11 +235,12 @@ function doWhile(numero) {
   //Retornar el valor final.
   //Usar el bucle do ... while.
 
-var n = 1
-while (n <= 8) {
-  numero = numero +5;
-  n= n +1;
+let n= 1
+do {
+  numero += 5;
+  n+=1;
 }
+while (n <= 8);
 return numero;
 }
 

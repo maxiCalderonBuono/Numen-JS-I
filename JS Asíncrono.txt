@@ -1,0 +1,5 @@
+1) https://lemoncode.net/lemoncode-blog/2018/1/29/javascript-asincrono
+2) https://kevinpmcc.medium.com/settimeout-and-the-web-api-4586ba9b0e8e
+3) http://latentflip.com/loupe/?code=ZnVuY3Rpb24gY29uc29sZUxvZ1R3bygpIHsKICAgIGNvbnNvbGUubG9nKDIpOwp9CmNvbnNvbGUubG9nKDEpCnNldFRpbWVvdXQoY29uc29sZUxvZ1R3bywgMTAwMCkKY29uc29sZS5sb2coMyk%3D!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D
+4) https://www.youtube.com/watch?v=kBVPVO0-icw
+
